@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57119152-a202-46a6-a3be-7f49ff33c6f7" name="Changes" comment="">
+    <list default="true" id="57119152-a202-46a6-a3be-7f49ff33c6f7" name="Changes" comment="feat - API para verificar se todos elementos da lista são positivos'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/Desafio01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/Desafio3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +29,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Desafio01">
+}</component>
+  <component name="RunManager" selected="Application.Desafio3">
     <configuration name="Desafio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desafios.Desafio01" />
+      <module name="stream_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Desafio02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.Desafio02" />
+      <module name="stream_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Desafio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.Desafio3" />
       <module name="stream_api" />
       <extension name="coverage">
         <pattern>
@@ -59,6 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafio3" />
+        <item itemvalue="Application.Desafio02" />
         <item itemvalue="Application.Desafio01" />
         <item itemvalue="Application.Main" />
       </list>
@@ -72,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696889837133</updated>
-      <workItem from="1696889838410" duration="1519000" />
+      <workItem from="1696889838410" duration="1967000" />
+      <workItem from="1696944384471" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit - desafioss do curso &#10;ganhando_produtividade_com_Stream_API_Java">
       <created>1696890025360</created>
@@ -81,7 +110,35 @@
       <option name="project" value="LOCAL" />
       <updated>1696890025360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat - API para ordenar a lista de números em ordem crescent">
+      <created>1696891542062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696891542062</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat - API para imprimir a soma dos números pares em sequencia da lista">
+      <created>1696946036201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696946036201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat - API para verificar se todos elementos da lista são positivos'">
+      <created>1696946897280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696946897280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat - adicinar função para mostrar os numeros negativos '">
+      <created>1696947286051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696947286051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +146,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit - desafioss do curso &#10;ganhando_produtividade_com_Stream_API_Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro Commit - desafioss do curso &#10;ganhando_produtividade_com_Stream_API_Java" />
+    <MESSAGE value="feat - API para ordenar a lista de números em ordem crescent" />
+    <MESSAGE value="feat - API para imprimir a soma dos números pares em sequencia da lista" />
+    <MESSAGE value="feat - API para verificar se todos elementos da lista são positivos'" />
+    <MESSAGE value="feat - adicinar função para mostrar os numeros negativos '" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat - adicinar função para mostrar os numeros negativos '" />
   </component>
 </project>
