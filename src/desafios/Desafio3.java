@@ -9,6 +9,7 @@ public class Desafio3 {
         //Desafio 3 - Verifique se todos os números da lista são positivos:
         //Desafio 3.1 - Verifique se todos os números da lista são positivos, se se tiver negativo o imprimir:
         //Desafio 3.2 - Imprimir os negativos em ordem
+        //Desafio 3.3 - Imprimir os negativos em ordem decrescente
 
         List<Integer> numeros = Arrays.asList(1, 2, 3, -7, 5, 6, -8, 8, 9, 10, 5, 4, -3);
 
@@ -16,11 +17,15 @@ public class Desafio3 {
 
         if (todosPositivos) {
             System.out.println("Todos os numeros são positivos");
-        }else {
+        } else {
             System.out.println("Existem numeros negativo");
 
             List<Integer> numerosNegativos = numeros.stream().filter(n -> n < 0).sorted().collect(Collectors.toList());
             System.out.println("Tem os seguintes numero (s) " + numerosNegativos);
+
+            List<Integer> numerosNegativosDecrescente = numeros.stream().filter(n -> n < 0)
+                    .sorted((a, b) -> b.compareTo(a)).collect(Collectors.toList());
+            System.out.println("Numeros hegativos em ordem decrescente " + numerosNegativosDecrescente);
         }
 
     }
